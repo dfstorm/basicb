@@ -75,6 +75,7 @@ char    *actualy_do_it(long long unsigned int itotal,
         if ((ipos % (itotal > 50 ? itotal / 50 : 2)) == 0)
             ft_printf(".");
         ireturn = 1;
+		system(get_system_command(str, enfs, mp));
         if (ireturn == 0)
         {
             ft_printf("\n[Found it: %s]\n", str);
