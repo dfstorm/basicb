@@ -1,9 +1,9 @@
 
+#include "../libft/includes/libft.h"
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-
-#include "libft/includes/libft.h"
 
 char    *get_hardcoded_base(unsigned long long int ibaselen)
 {
